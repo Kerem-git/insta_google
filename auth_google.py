@@ -18,7 +18,7 @@ for i in range(999999999999999):
     print(day)
     print("I'm still working")
     key = "BQ5A K56L 4IFT ACEZ QODW EF5X TB2N MBOU"
-    sleep(30000)
+    sleep(30)
     if "Thursday" in day:
         with smtplib.SMTP("smtp.gmail.com",587) as smtp:
             smtp.ehlo()
