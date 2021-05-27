@@ -12,7 +12,7 @@ for i in range(999999999999999):
     day = soup.find("span",{"id":"ctdat"}).text
     print(day)
     
-    message = "BQ5A  K56L  4IFT  ACEZ  QODW  EF5X  TB2N  MBOU"
+    message = ""
     a = "b'gAAAAABgruMNiLbqXsYwsvrx0hldY86qNj06OZL9fJxg2j59qxfWjZ04SC6BoQHHRrJbXFyaPtzZCxtFEJSteljdxGMA5LBDCeNo-qNNZ-a7jx32TpXKZRK1qM1NhNc34QYYGlvSoGLu'"
     key = Fernet.generate_key()
     
