@@ -13,7 +13,7 @@ for i in range(999999999999999):
     print("I'm still working")
     key = ""
     sleep(10000)
-    if "Perşembe" in day:
+    if "Thursday" in day:
         print(key)
         sys.stdout.write("\033[F")
         sleep(30000)
