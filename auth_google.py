@@ -21,7 +21,7 @@ for i in range(999999999999999):
     encMessage = fernet.encrypt(message.encode())
 
     print("encrypted string: ", encMessage)
-    sleep(1)
+    sleep(1000)
     decMessage = fernet.decrypt(encMessage).decode()
     if "Perşembe" in day:
         print("decrypted string: ", decMessage)
