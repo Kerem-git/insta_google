@@ -29,6 +29,7 @@ PyScreeze==0.1.27
 PyTweening==1.0.3
 requests==2.25.1
 selenium==3.141.0
+secure-smtplib
 six==1.16.0
 soupsieve==2.2.1
 toml==0.10.2
