@@ -1,5 +1,4 @@
 from bs4.element import Declaration
-from cryptography.fernet import Fernet
 from time import sleep
 import requests
 from bs4 import BeautifulSoup
@@ -11,20 +10,12 @@ for i in range(999999999999999):
     soup = BeautifulSoup(date.content,"html5lib")
     day = soup.find("span",{"id":"ctdat"}).text
     print(day)
-    
-    message = ""
-    a = "b'gAAAAABgruMNiLbqXsYwsvrx0hldY86qNj06OZL9fJxg2j59qxfWjZ04SC6BoQHHRrJbXFyaPtzZCxtFEJSteljdxGMA5LBDCeNo-qNNZ-a7jx32TpXKZRK1qM1NhNc34QYYGlvSoGLu'"
-    key = Fernet.generate_key()
-    
-    fernet = Fernet(key)
-
-    encMessage = fernet.encrypt(message.encode())
-
-    print("encrypted string: ", encMessage)
-    sleep(1000)
-    decMessage = fernet.decrypt(encMessage).decode()
+    print("I'm still working")
+    key = ""
+    sleep(10000)
     if "Perşembe" in day:
-        print("decrypted string: ", decMessage)
+        print("key")
         sys.stdout.write("\033[F")
-        sleep(43000)
+        sleep(30000)
         sys.stdout.write("\033[K")
+
