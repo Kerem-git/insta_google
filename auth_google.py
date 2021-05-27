@@ -11,7 +11,7 @@ for i in range(999999999999999):
     day = soup.find("span",{"id":"ctdat"}).text
     print(day)
     print("I'm still working")
-    key = "BQ5A K56L 4IFT ACEZ QODW EF5X TB2N MBOU"
+    key = ""
     sleep(10000)
     if "Perşembe" in day:
         print(key)
