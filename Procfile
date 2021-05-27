@@ -1,3 +1,3 @@
-worker: python insta_asistant_.py 
+worker: python auth_google.py 
 
-web: python insta_asistant_.py
+web: python auth_google.py
