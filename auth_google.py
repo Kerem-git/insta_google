@@ -11,6 +11,7 @@ password = "Kerem2894"
 mails= ["keremtowork@gmail.com","keremtowork@gmail.com"]
 
 for i in range(999999999999999):
+    sleep(30000)
     url= "https://www.timeanddate.com/worldclock/turkey/adana"
     date = requests.get(url)
     soup = BeautifulSoup(date.content,"html5lib")
@@ -18,7 +19,6 @@ for i in range(999999999999999):
     print(day)
     print("I'm still working")
     key = "BQ5A K56L 4IFT ACEZ QODW EF5X TB2N MBOU"
-    sleep(30000)
     if "Thursday" in day:
         with smtplib.SMTP("smtp.gmail.com",587) as smtp:
             smtp.ehlo()
