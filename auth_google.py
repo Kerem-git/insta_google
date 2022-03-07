@@ -6,9 +6,9 @@ import sys
 import smtplib
 
 print("bot has been started.")
-email = "mahmutcarlsen@gmail.com"
-password = "Kerem2894" 
-mails= ["keremtowork@gmail.com","keremtowork@gmail.com"]
+email = ""
+password = "" 
+mails= ["",""]
 
 for i in range(999999999999999):
     sleep(30000)
